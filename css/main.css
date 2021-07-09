@@ -1,0 +1,35 @@
+.submit_btn {
+    width: 100%;
+  }
+  #destinations_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  .buttons_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.bucketlist-fluid{
+      padding-right:0;
+      padding-left:0;
+      border-radius:0
+}
+
+.bucketlist{
+    padding:2rem 1rem;
+    margin-bottom:2rem;
+    background-color:#afc0d1;
+    border-radius:.3rem}
+    
+@media (min-width:576px)
+{.bucketlist{
+    padding:4rem 2rem
+}
+}
